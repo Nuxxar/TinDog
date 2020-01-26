@@ -1,9 +1,11 @@
+
+/* Title Section */
 #title {
   background-color: #ff4c68;
   color: #fff;
 }
 
-.container-fluid {
+.titleContainer {
   padding: 3% 15%;
 }
 
@@ -38,10 +40,31 @@
   width: 60%;
 }
 
+/* Features Section */
+#features {
+  padding: 10% 15%;
+  text-align: center;
+}
+
+.featureBox {
+  padding: 2.5%;
+}
+
+.featuresIcons {
+  font-size: 3rem;
+  color: #ef8172;
+}
+
+.featuresIcons:hover {
+  color: #ff4c68;
+}
+
+/* Headings and Body */
 h1 {
   font-family: 'Montserrat-Black', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
+  font-weight: 600;
 }
 
 h2 {
@@ -49,9 +72,14 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 500;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f
 }
