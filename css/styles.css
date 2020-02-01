@@ -6,7 +6,7 @@
 }
 
 .titleContainer {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -37,17 +37,32 @@
 /* Title Image */
 .iphone6 {
   transform: rotate(25deg);
-  width: 60%;
+  width: 55%;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+  }
 }
 
 /* Features Section */
 #features {
   padding: 10% 15%;
-  text-align: center;
+  background-color: #fff;
+  position: relative;
 }
 
 .featureBox {
   padding: 2.5%;
+  text-align: center;
 }
 
 .featuresIcons {
@@ -64,7 +79,6 @@
   background-color: #ef8172;
   color: #fff;
   text-align: center;
-
 }
 
 .testimonial-image {
@@ -95,12 +109,33 @@
   padding: 100px;
 }
 
-.btn-signUp {
-
-}
-
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* Call to Action Section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-text {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.contactIcons{
+  margin: 20px 10px;
 }
 
 /* Headings and Body */
